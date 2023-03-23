@@ -16,11 +16,18 @@ Clone this repository:
 git clone https://github.com/milanrocher/catppuccin.dots.git
 ```
 
-Copy the config files to your ${HOME}/.config directory:
+Copy the config files to your .config directory:
 
 ```bash
-cd catppuccin.dots
-cp * ${HOME}/.config/
+cd catppuccin.dots/.config
+cp * ${HOME}/
+```
+
+Copy the wallpaper to your Pictures directory:
+
+```bash
+cd catppuccin.dots/wallpaper
+cp * ${HOME}/Pictures/
 ```
 
 ## :paperclip: Contact
