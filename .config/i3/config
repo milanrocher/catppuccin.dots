@@ -207,7 +207,7 @@ client.background       #FFFFFF
 # Startup commands
 exec_always --no-startup-id ~/.config/polybar/launch.sh
 exec_always --no-startup-id xrandr --output eDP-1 --mode 1920x1080
-exec_always --no-startup-id feh --bg-fill ~/Pictures/Nord/rainbow.jpg
+exec_always --no-startup-id feh --bg-fill ~/Pictures/Catppuccin/flatppuccin_4k_macchiato.png
 
 # Tiles config
 for_window [all] border pixel 2
