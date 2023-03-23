@@ -1,13 +1,15 @@
 # catppuccin.dots
 i3wm dot files for [Catppuccin](https://github.com/catppuccin/catppuccin) themed rice.
 
+![Workspace](./i3.png)
 
 ### :sparkles: Features
 - i3
 - Polybar
 - Neovim
 - Tmux
-- rofi
+- Rofi
+- Alacritty
 
 ## :wrench: Usage
 Clone this repository:
