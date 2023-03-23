@@ -1,0 +1,12 @@
+configuration {
+  modi: "window,drun,run,filebrowser";
+  terminal: "alacritty";
+  display-window: "﩯 Windows ";
+  display-drun: " Apps ";
+  display-run: " Run ";
+  display-filebrowser: " Files ";
+  hide-scrollbar: true;
+  sidebar-mode: true;
+  font: "Hack Nerd Font 11";
+}
+@theme "catppuccin"

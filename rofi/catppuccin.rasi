@@ -1,0 +1,91 @@
+* {
+  rosewater: #f4dbd6;
+  flamingo:  #f0c6c6;
+  pink:      #f5bde6;
+  mauve:     #c6a0f6;
+  red:       #ed8796;
+  maroon:    #ee99a0;
+  peach:     #f5a97f;
+  yellow:    #eed49f;
+  green:     #a6da95;
+  teal:      #8bd5ca;
+  sky:       #91d7e3;
+  sapphire:  #7dc4e4;
+  blue:      #8aadf4;
+  lavender:  #b7bdf8;
+  surface:   #363a4f;
+  base:      #24273a;
+  crust:     #181926;
+
+  background-color: transparent;
+}
+
+window {
+  border:           3;
+  padding:          5;
+  background-color: @base;
+  border-color: @crust;
+}
+
+mainbox {
+  border:  0;
+  padding: 0;
+}
+
+inputbar {
+  children: [prompt,entry];
+  text-color: @lavender;
+  padding:    5px;
+}
+
+prompt {
+  text-color: @lavender;
+}
+
+entry {
+    text-color: @lavender;
+}
+
+listview {
+  border:       0px 0px 0px;
+  padding:      0px 0px 0px;
+  border-radius: 5px;
+  lines: 10;
+}
+
+element {
+  padding: 3px;
+  background-color: @lavender;
+  text-color: @base;
+  border-radius: 1px;
+}
+
+element selected {
+  background-color: @blue;
+  text-color: @base;
+  border-radius: 2px;
+}
+
+button {
+  padding: 2px;
+  text-color: @lavender;
+  vertical-align: 0.5;
+  horizontal-align: 0.5;
+}
+
+button.selected {
+  background-color: @blue;
+  text-color:       @base;
+  border-radius: 5px;
+}
+
+message {
+  background-color: @red;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+textbox {
+  padding: 5px;
+  text-color: @base;
+}
