@@ -28,3 +28,17 @@ Mergesort
 LTS
 arg2
 arg1
+config
+wrappper
+mental analysis of the performance of different sorting algorithms on arrays of varying sizes and degrees of disorder. The algorithms tested include mergesort, quicksort, and insertion sort, with varying thresholds for when to switch between them. Our results show that the choice of algorithm and threshold values can have a significant impact on performance, and we provide recommendations for choosing the best algorithm and threshold values for a given problem.
+mergesort
+ChatGPT
+KGs
+NLP
+spaCy
+Rasa
+DM
+NLU
+GPT2
+HuggingFace
+Neo4J

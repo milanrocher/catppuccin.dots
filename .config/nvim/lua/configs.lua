@@ -23,9 +23,6 @@ vim.opt.ignorecase = true
 vim.opt.hlsearch = false
 vim.opt.incsearch = true
 
--- Spelling
-vim.opt.spell = true
-
 -- Visuals
 vim.opt.termguicolors = true
 vim.opt.scrolloff = 8
